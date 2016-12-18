@@ -168,6 +168,10 @@
 				>
 			</File>
 			<File
+				RelativePath=".\argcargvW.cc"
+				>
+			</File>
+			<File
 				RelativePath=".\atoi.cc"
 				>
 			</File>
@@ -181,6 +185,10 @@
 			</File>
 			<File
 				RelativePath=".\crt0tcon.cc"
+				>
+			</File>
+			<File
+				RelativePath=".\crt0tconW.cc"
 				>
 			</File>
 			<File
@@ -291,6 +299,10 @@
 			>
 			<File
 				RelativePath=".\argcargv.h"
+				>
+			</File>
+			<File
+				RelativePath=".\argcargvW.h"
 				>
 			</File>
 			<File
