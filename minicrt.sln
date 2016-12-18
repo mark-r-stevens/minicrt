@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "minicrt", "minicrt_2008.vcproj", "{15F49E56-FFE5-42CD-9C37-AC574B57AA5E}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "minicrt", "crt\minicrt.vcproj", "{15F49E56-FFE5-42CD-9C37-AC574B57AA5E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
