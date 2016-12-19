@@ -290,6 +290,14 @@
 				RelativePath=".\toupper.cc"
 				>
 			</File>
+			<File
+				RelativePath=".\vprintf.cc"
+				>
+			</File>
+			<File
+				RelativePath=".\vsprintf.cc"
+				>
+			</File>
 		</Filter>
 		<Filter
 			Name="Header Files"
