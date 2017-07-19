@@ -21,3 +21,13 @@ void* __cdecl operator new[](size_t n) {
 void __cdecl operator delete[](void* p) {
   operator delete(p);
 }
+
+#if _MSC_VER >= 1900
+void __cdecl operator delete[](void* p, size_t) {
+    operator delete[](p);
+}
+
+void __cdecl operator delete(void* p, size_t) {
+    operator delete(p);
+}
+#endif
