@@ -9,9 +9,15 @@ extern "C" {
 #define kDefaultSecurityCookie 0xBB40E64E
 #endif  /* _WIN64 */
 
-DWORD_PTR __security_cookie = kDefaultSecurityCookie;
+#if _MSC_VER >= 1900
+typedef uintptr_t cookie_type;
+#else
+typedef DWORD_PTR cookie_type;
+#endif
 
-void __fastcall __security_check_cookie(DWORD_PTR) {
+cookie_type __security_cookie = kDefaultSecurityCookie;
+
+void __fastcall __security_check_cookie(cookie_type) {
     return;
 
     /* Immediately return if the local cookie is OK. */
