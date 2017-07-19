@@ -32,7 +32,7 @@ _PVFV __xp_z[] = { NULL };
 
 #pragma data_seg()  /* reset */
 
-#pragma comment(linker, "/merge:.CRT=.data")
+#pragma comment(linker, "/merge:.CRT=.rdata")
 
 typedef void (__cdecl *_PVFV)();
 
