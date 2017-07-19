@@ -1,5 +1,8 @@
 *.ncb
 *.suo
 *.user
+*.VC.db
+*.VC.opendb
+.vs
 Release
 Debug
