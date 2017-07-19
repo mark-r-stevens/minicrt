@@ -18,7 +18,7 @@ extern "C" int __cdecl printf(const char * format, ...)
     va_list argptr;
           
     va_start( argptr, format );
-    retValue = wvsprintf( szBuff, format, argptr );
+    retValue = wvsprintfA( szBuff, format, argptr );
     va_end( argptr );
 
     WriteFile(  GetStdHandle(STD_OUTPUT_HANDLE), szBuff, retValue,

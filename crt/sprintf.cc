@@ -16,7 +16,7 @@ extern "C" int __cdecl sprintf (char *string, const char *format, ...)
     va_list argptr;
 
     va_start( argptr, format );
-    retValue = wvsprintf( string, format, argptr );
+    retValue = wvsprintfA( string, format, argptr );
     va_end( argptr );
 
     return retValue;
