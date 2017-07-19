@@ -1093,3 +1093,12 @@ unsigned long __cdecl strtoul (
         return strtoxl(nptr, (const char**)endptr, ibase, FL_UNSIGNED);
 }
 
+char* __cdecl strcat(char *dst, char const* src)
+{
+    return lstrcatA(dst, src);
+}
+
+wchar_t* __cdecl wcscat(wchar_t *dst, wchar_t const* src)
+{
+    return lstrcatW(dst, src);
+}
